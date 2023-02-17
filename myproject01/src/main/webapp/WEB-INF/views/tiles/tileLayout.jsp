@@ -33,6 +33,12 @@
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
+    
+    <link href="/resources/Falcon/js/vendors/leaflet/leaflet.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/leaflet.markercluster/MarkerCluster.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/leaflet.markercluster/MarkerCluster.Default.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">        
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
     <link href="/resources/Falcon/js/vendors/simplebar/simplebar.min.css" rel="stylesheet">
@@ -104,7 +110,15 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    
+
+    <script src="/resources/Falcon/js/assets/flatpickr.js"></script>
+    <script src="/resources/Falcon/js/vendors/leaflet/leaflet.js"></script>
+    <script src="/resources/Falcon/js/vendors/leaflet.markercluster/leaflet.markercluster.js"></script>
+    <script src="/resources/Falcon/js/vendors/leaflet.tilelayer.colorfilter/leaflet-tilelayer-colorfilter.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/countup/countUp.umd.js"></script>
+    <script src="/resources/Falcon/js/assets/data/world.js"></script>
+    <script src="/resources/Falcon/js/vendors/chart/chart.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/dayjs/dayjs.min.js"></script>
     <script src="/resources/Falcon/js/vendors/popper/popper.min.js"></script>
     <script src="/resources/Falcon/js/vendors/bootstrap/bootstrap.min.js"></script>
     <script src="/resources/Falcon/js/vendors/anchorjs/anchor.min.js"></script>

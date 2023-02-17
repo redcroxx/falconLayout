@@ -23,19 +23,19 @@
         </div>
       </a>
       <ul class="nav collapse" id="dashboard">
-        <li class="nav-item"><a class="nav-link" href="../index.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/index" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Default</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../dashboard/analytics.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/analytics" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Analytics</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../dashboard/crm.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/crm" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">CRM</span>
             </div>
           </a>

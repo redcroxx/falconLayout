@@ -22,6 +22,8 @@
     
     <!-- 타일즈 미 적용 -->
     <definition name="EmptyLayout" template="/WEB-INF/views/tiles/tileEmpty.jsp">
+       <put-attribute name="modal" value="/WEB-INF/views/tiles/parts/modal.jsp" />
+       <put-attribute name="setting" value="/WEB-INF/views/tiles/parts/setting.jsp" />           
     </definition >
     
     <definition name="*.empty" extends="EmptyLayout">
@@ -29,7 +31,7 @@
     </definition>
         
     <definition name="*/*.empty" extends="EmptyLayout">
-        <put-attribute name="NormalLayout" value="/WEB-INF/views/tiles/page/{1}/{2}.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/tiles/page/{1}/{2}.jsp" />
     </definition>   
      
 
