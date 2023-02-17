@@ -1462,6 +1462,8 @@
       </a>
     </li>
   </ul>
+  
+  <!-- 
   <div class="settings mb-3">
     <div class="card shadow-none">
       <div class="card-body alert mb-0" role="alert">
@@ -1475,5 +1477,6 @@
       </div>
     </div>
   </div>
+  -->
 </div>
 
