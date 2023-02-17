@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- tiles 적용 -->
+    <definition name="tileLayout" template="/WEB-INF/views/tiles/tileLayout.jsp">
+       <put-attribute name="top" value="/WEB-INF/views/tiles/parts/top.jsp" />
+       <put-attribute name="left" value="/WEB-INF/views/tiles/parts/left.jsp" />
+       <put-attribute name="bottom" value="/WEB-INF/views/tiles/parts/bottom.jsp" />
+       <put-attribute name="setting" value="/WEB-INF/views/tiles/parts/setting.jsp" />
+       <put-attribute name="modal" value="/WEB-INF/views/tiles/parts/modal.jsp" />
+       <put-attribute name="toggle" value="/WEB-INF/views/tiles/parts/toggle.jsp" />                                                  
+    </definition>
+ 
+    <definition name="*.tile" extends="tileLayout">
+        <put-attribute name="content" value="/WEB-INF/views/tiles/page/{1}.jsp" />
+    </definition>
+    
+    <definition name="*/*.tiles" extends="tileLayout">
+        <put-attribute name="content" value="/WEB-INF/views/tiles/page/{1}/{2}.jsp" />
+    </definition>
+    
+    <!-- 타일즈 미 적용 -->
+    <definition name="EmptyLayout" template="/WEB-INF/views/tiles/tileEmpty.jsp">
+    </definition >
+    
+    <definition name="*.empty" extends="EmptyLayout">
+        <put-attribute name="content" value="/WEB-INF/views/tiles/page/{1}.jsp" />
+    </definition>
+        
+    <definition name="*/*.empty" extends="EmptyLayout">
+        <put-attribute name="NormalLayout" value="/WEB-INF/views/tiles/page/{1}/{2}.jsp" />
+    </definition>   
+     
+
+</tiles-definitions>

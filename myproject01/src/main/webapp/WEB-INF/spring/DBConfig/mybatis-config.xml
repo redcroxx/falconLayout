@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 여러가지 기본 옵션을 지정합니다. --> 
+    <settings> 
+    <!-- 오라클 필드 속성이 READ_COUNT 처럼 언더 스코어가 있을 때 VO 의 readCount 처럼 카멜 케이스로 변환 되게 합니다. --> 
+        <!-- setting name="mapUnderscoreToCamelCase" value="true"/-->
+        <setting name="jdbcTypeForNull" value="NULL" />
+        <setting name="callSettersOnNulls" value="true" />
+        <setting name="mapUnderscoreToCamelCase" value="false" />         
+    </settings>         
+    <typeAliases> 
+        <typeAlias type="java.util.Map" alias="map" />        
+        <!-- typeAlias alias="UserVO" type="com.formtemplete.project.VO.UserVO"/-->        
+        <!-- typeAlias alias="UserVO" type="com.formtemplete.project.VO.UserVO"/-->            
+        
+        <!-- typeAlias alias="LDataMap" type="com.project.Xroute2.common.LDataMap" /-->
+        <!-- typeAlias alias="LDataLinkedMap" type="com.project.Xroute2.common.LDataLinkedMap" /-->        
+        <!-- typeAlias alias="UserVO" type="com.project.Xroute2.VO.UserVO"/-->
+        <!-- typeAlias alias="LoginVO" type="com.project.Xroute2.VO.LoginVO"/-->
+        <!-- typeAlias alias="CodeVO" type="com.project.Xroute2.VO.CodeVO"/-->                   
+        <!-- typeAlias alias="printVO" type="com.project.Xroute2.VO.PrintVO"/-->
+        <!-- typeAlias alias="commonSearchVO" type="com.project.Xroute2.VO.CommonSearchVO"/-->                
+        <!-- typeAlias alias="orderVO" type="com.project.Xroute2.VO.OrderVO"/-->
+        <!-- typeAlias alias="UpsCountryZoneVO" type="com.project.Xroute2.VO.UpsCountryZoneVO"/-->
+        <!-- typeAlias alias="ShippingListVO" type="com.project.Xroute2.VO.ShippingListVO"/-->
+        <!-- typeAlias alias="ShipPriceSearchVO" type="com.project.Xroute2.VO.ShipPriceSearchVO"/-->        
+        <!-- typeAlias alias="SettleBankResNotiVO" type="com.project.Xroute2.VO.SettleBankResNotiVO"/-->
+        <!-- typeAlias alias="TCartVo" type="com.project.Xroute2.VO.TCartVo"/-->
+        <!-- typeAlias alias="TCartDtlVo" type="com.project.Xroute2.VO.TCartDtlVo"/-->
+        <!-- typeAlias alias="PassBookMasterVO" type="com.project.Xroute2.VO.PassBookMasterVO"/-->
+        <!-- typeAlias alias="TrackingHistorytVO" type="com.project.Xroute2.VO.TrackingHistorytVO"/-->        
+
+    </typeAliases> 
+        
+</configuration>

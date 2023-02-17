@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<!-- 맵핑될 DAO 인터페이스의 Full name 을 줍니다. --> 
+
+<mapper namespace="LoginMapper"> 
+    <!-- 로그인 체크 -->
+    
+    <resultMap type="hashMap" id="selectMapList">
+        <result column="CODE" property="CODE"/>
+        <result column="CODENAME" property="CODENAME"/>
+    </resultMap>    
+    
+    <resultMap type="hashMap" id="UserInfo">
+        <result column="USER_ID" property="USERID"/>
+        <result column="USER_PW" property="USERPW"/>
+        <result column="USER_NAME" property="USERNAME"/>
+        <result column="USER_BIRTH" property="USERBIRTH"/>        
+        <result column="EMAIL" property="EMAIL"/>
+        <result column="USER_HP" property="USERHP"/>
+        <result column="ZIP" property="ZIP"/>
+        <result column="ADDR1" property="ADDR1"/>        
+        <result column="DETAILADDR" property="DETAILADDR"/>
+        <result column="LANGUAGE" property="LANGUAGE"/>
+        <result column="STORE_ID" property="STOREID"/>
+    </resultMap>    
+    
+    
+    <!-- select id="getLogin" parameterType="hashMap" resultType="UserVO">
+
+		SELECT USER_ID 
+		      ,USER_PW 
+		      ,NAME 
+		      ,EMAIL 
+		      ,BIRTH 
+		      ,PHONE 
+		  FROM GUSER  
+		 WHERE UPPER(USER_ID) = #{userId}
+		   AND USER_PW = #{userPW} 
+
+    </select-->
+</mapper>

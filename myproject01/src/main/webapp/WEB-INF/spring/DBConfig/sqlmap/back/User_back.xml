@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<!-- 맵핑될 DAO 인터페이스의 Full name 을 줍니다. --> 
+
+<mapper namespace="UserMapper_back"> 
+    <!-- 로그인 체크 -->
+    
+    <resultMap type="hashMap" id="selectMapList">
+        <result column="CODE" property="CODE"/>
+        <result column="CODENAME" property="CODENAME"/>
+    </resultMap>    
+    
+    <resultMap type="hashMap" id="UserInfo">
+        <result column="USER_ID" property="USERID"/>
+        <result column="USER_PW" property="USERPW"/>
+        <result column="USER_NAME" property="USERNAME"/>
+        <result column="USER_BIRTH" property="USERBIRTH"/>        
+        <result column="EMAIL" property="EMAIL"/>
+        <result column="USER_HP" property="USERHP"/>
+        <result column="ZIP" property="ZIP"/>
+        <result column="ADDR1" property="ADDR1"/>        
+        <result column="DETAILADDR" property="DETAILADDR"/>
+        <result column="LANGUAGE" property="LANGUAGE"/>
+        <result column="STORE_ID" property="STOREID"/>
+    </resultMap>    
+    
+    
+    <select id="getLogin" parameterType="hashMap" resultType="UserVO">
+        SELECT A.COMPCD
+             , B.NAME AS COMPNM
+             , A.USERCD
+             , A.NAME
+             , DBO.UFX_TRIM(A.ORGCD) AS ORGCD
+             , C.NAME AS ORGNM
+             <!-- 20191128 jy.hong 2019년12까지 추가개발  SELLER_WHCD 추가 -->
+             , C.SELLER_WHCD AS SELLERWHCD
+             <!-- 20200210 jy.hong 결제타입구분 추가 -->
+             , C.PAYMENT_TYPE AS PAYMENTTYPE    
+             <!-- , A.CUSTCD -->
+             , (SELECT TOP 1 CUSTCD FROM P003 WHERE ORGCD = A.ORGCD) AS CUSTCD
+             , D.NAME AS CUSTNM
+             , A.DEPTCD
+             , A.WHCD
+             , E.NAME AS WHNM
+             , A.USERGROUP
+             , A.ISUSING
+             , (SELECT SNAME1 FROM S002 B WHERE CODEKEY = 'DEPTCD' AND A.COMPCD = B.COMPCD AND A.DEPTCD =  B.CODE) AS DEPTNM
+             , (SELECT SNAME1 FROM S002 B WHERE CODEKEY = 'USERGROUP'AND A.COMPCD = B.COMPCD AND A.USERGROUP =  B.CODE) AS USERGROUPNM
+             , (SELECT TOP 1 CONVERT(VARCHAR,B.HISTORYDATETIME, 2) FROM S013 B WHERE B.USERCD = A.USERCD AND B.STATUS = 'S' AND B.HISTORYTYPE = 'LOGIN' ORDER BY B.HISTORYDATETIME DESC) AS LASTLOGIN
+             , (SELECT COUNT(B.USERCD) FROM S013 B WHERE B.USERCD = A.USERCD AND B.STATUS = 'S' AND B.HISTORYTYPE = 'LOGIN') AS LOGINCNT
+             , CONVERT(VARCHAR, A.PWDCHGDATE, 2) AS PWDCHGDATE
+             , CONVERT(VARCHAR, A.PWDCHGDATE+90, 2) AS PWDCHGSCDATE
+             , ISNULL(A.ISLOCK, 'N') AS ISLOCK
+             , CASE WHEN DATEDIFF(DAY, A.PWDCHGDATE, GETDATE()) > 90 THEN 'Y' ELSE 'N' END AS PWDCHGYN
+             , CASE WHEN dbo.UFX_Encryption2(#{PASSWD}, #{ENCKEY}) = A.PASS THEN 'Y' ELSE 'N' END AS PASS
+             , CASE WHEN dbo.UFX_Encryption2(LOWER(A.USERCD), #{ENCKEY}) = A.PASS THEN 'Y' ELSE 'N' END AS INITUSERYN
+             , (SELECT CASE WHEN DATEDIFF(DAY, MAX(B.HISTORYDATETIME), GETDATE()) > 90 THEN 'Y' ELSE 'N' END 
+                  FROM S013 B
+                 WHERE B.USERCD = A.USERCD
+                   AND B.STATUS = 'S') AS LAST3MONTH
+             , A.EMAIL
+             , CASE WHEN G.PRINT1 = '' OR G.PRINT1 = NULL THEN '미설정' ELSE G.PRINT1 END AS PRINT1
+             , CASE WHEN G.PRINT2 = '' OR G.PRINT2 = NULL THEN '미설정' ELSE G.PRINT2 END AS PRINT2
+             , CASE WHEN G.PRINT3 = '' OR G.PRINT3 = NULL THEN '미설정' ELSE G.PRINT3 END AS PRINT3
+             , CASE WHEN G.PRINT4 = '' OR G.PRINT4 = NULL THEN '미설정' ELSE G.PRINT4 END AS PRINT4
+             , CASE WHEN H.SCALE1 = '' OR H.SCALE1 = NULL THEN '미설정' ELSE H.SCALE1 END AS SCALE1
+             , ISNULL(P.COMPLETE_YN, 'N')   AS passBookAuthYn
+        FROM S010 A WITH (NOLOCK)
+        LEFT OUTER JOIN P001 B
+          ON A.COMPCD = B.COMPCD
+        LEFT OUTER JOIN P002 C
+          ON A.COMPCD = C.COMPCD AND A.ORGCD = C.ORGCD
+        LEFT OUTER JOIN P003 D
+          ON A.COMPCD = D.COMPCD AND A.CUSTCD = D.CUSTCD
+        LEFT OUTER JOIN P004 E
+          ON A.COMPCD = E.COMPCD AND A.WHCD = E.WHCD
+        LEFT OUTER JOIN S017 G
+          ON A.COMPCD = G.COMPCD AND A.USERCD = G.USERCD
+        LEFT OUTER JOIN TSCALE H
+          ON A.COMPCD = H.COMPCD AND A.USERCD = H.USERCD
+        LEFT OUTER JOIN PASS_BOOK_AUTH P
+          ON A.USERCD = P.USERCD
+        WHERE UPPER(A.USERCD) = UPPER(#{USERCD})
+          AND A.ISUSING = 'Y'
+    </select>
+</mapper>
