@@ -63,6 +63,42 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView();		
 		mv.setViewName("index.tile");
 		return mv;	
+	}
+	
+	@RequestMapping(value = "/analytics")
+	public ModelAndView analytics(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("analytics.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/crm")
+	public ModelAndView crm(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("crm.tile");
+		return mv;	
+	}		
+	
+		
+	@RequestMapping(value = "/login")
+	public ModelAndView login(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("login.empty");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/register")
+	public ModelAndView register(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("register.empty");
+		return mv;	
 	}	
+	
+	@RequestMapping(value = "/findPassword")
+	public ModelAndView findPassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("forgot-password.empty");
+		return mv;	
+	}
 	
 }
