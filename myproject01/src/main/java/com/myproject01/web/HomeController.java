@@ -271,4 +271,37 @@ public class HomeController {
 		mv.setViewName("invoice.tile");
 		return mv;	
 	}		
+	
+	@RequestMapping(value = "/course-list")
+	public ModelAndView courselist(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("course-list.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/course-grid")
+	public ModelAndView coursegrid(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("course-grid.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/course-details")
+	public ModelAndView coursedetails(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("course-details.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/create-a-course")
+	public ModelAndView createacourse(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("create-a-course.tile");
+		return mv;	
+	}		
+		
+	
+	
 }
+
+

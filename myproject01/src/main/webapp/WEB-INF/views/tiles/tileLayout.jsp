@@ -42,7 +42,7 @@
     <link href="/resources/Falcon/js/vendors/choices/choices.min.css" rel="stylesheet">
     <link href="/resources/Falcon/js/vendors/dropzone/dropzone.min.css" rel="stylesheet">    
     <link href="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
-    
+    <link href="/resources/Falcon/js/vendors/glightbox/glightbox.min.css" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
@@ -148,6 +148,7 @@
     <script src="/resources/Falcon/js/vendors/choices/choices.min.js"></script>
     <script src="/resources/Falcon/js/vendors/dropzone/dropzone.min.js"></script>
     <script src="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/glightbox/glightbox.min.js"> </script>
   </body>
 
 </html>

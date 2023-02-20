@@ -231,25 +231,25 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="course">
-            <li class="nav-item"><a class="nav-link" href="../app/e-learning/course/course-list.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/course-list" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Course list</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../app/e-learning/course/course-grid.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/course-grid" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Course grid</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../app/e-learning/course/course-details.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/course-details" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Course details</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../app/e-learning/course/create-a-course.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="create-a-course" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Create a course</span>
                 </div>
               </a>
