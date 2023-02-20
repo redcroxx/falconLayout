@@ -37,7 +37,12 @@
     <link href="/resources/Falcon/js/vendors/leaflet/leaflet.css" rel="stylesheet">
     <link href="/resources/Falcon/js/vendors/leaflet.markercluster/MarkerCluster.css" rel="stylesheet">
     <link href="/resources/Falcon/js/vendors/leaflet.markercluster/MarkerCluster.Default.css" rel="stylesheet">
-    <link href="/resources/Falcon/js/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">        
+    <link href="/resources/Falcon/js/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/fullcalendar/main.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/choices/choices.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/dropzone/dropzone.min.css" rel="stylesheet">    
+    <link href="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
@@ -48,6 +53,8 @@
     <link href="/resources/Falcon/css/assets/user.min.css" rel="stylesheet" id="user-style-default">
     <script>
       var isRTL = JSON.parse(localStorage.getItem('isRTL'));
+      //var isRTL = false;
+
       if (isRTL) {
         var linkDefault = document.getElementById('style-default');
         var userLinkDefault = document.getElementById('user-style-default');
@@ -80,6 +87,7 @@
         <nav class="navbar navbar-light navbar-vertical navbar-expand-xl">
           <script>
             var navbarStyle = localStorage.getItem("navbarStyle");
+            console.log("navbarStyle" + navbarStyle);
             if (navbarStyle && navbarStyle !== 'transparent') {
               document.querySelector('.navbar-vertical').classList.add(`navbar-${navbarStyle}`);
             }
@@ -111,12 +119,17 @@
     <!--    JavaScripts-->
     <!-- ===============================================-->
 
+
+
     <script src="/resources/Falcon/js/assets/flatpickr.js"></script>
     <script src="/resources/Falcon/js/vendors/leaflet/leaflet.js"></script>
     <script src="/resources/Falcon/js/vendors/leaflet.markercluster/leaflet.markercluster.js"></script>
     <script src="/resources/Falcon/js/vendors/leaflet.tilelayer.colorfilter/leaflet-tilelayer-colorfilter.min.js"></script>
     <script src="/resources/Falcon/js/vendors/countup/countUp.umd.js"></script>
     <script src="/resources/Falcon/js/assets/data/world.js"></script>
+    <script src="/resources/Falcon/js/vendors/echarts-countries-js/map/world.js"></script>
+    <script src="/resources/Falcon/js/vendors/echarts-countries-js/world/world.js"></script>
+   
     <script src="/resources/Falcon/js/vendors/chart/chart.min.js"></script>
     <script src="/resources/Falcon/js/vendors/dayjs/dayjs.min.js"></script>
     <script src="/resources/Falcon/js/vendors/popper/popper.min.js"></script>
@@ -129,7 +142,12 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="/resources/Falcon/js/vendors/list.js/list.min.js"></script>
     <script src="/resources/Falcon/js/assets/theme.js"></script>
+    <script src="/resources/Falcon/js/vendors/fullcalendar/main.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/d3/d3.min.js"></script>    
 
+    <script src="/resources/Falcon/js/vendors/choices/choices.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/dropzone/dropzone.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.js"></script>
   </body>
 
 </html>
