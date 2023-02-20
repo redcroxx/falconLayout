@@ -169,13 +169,13 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="orders">
-            <li class="nav-item"><a class="nav-link" href="../app/e-commerce/orders/order-list.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/order-list" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Order list</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../app/e-commerce/orders/order-details.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/order-details" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Order details</span>
                 </div>
               </a>
@@ -183,37 +183,37 @@
             </li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/e-commerce/customers.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/customers" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customers</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/e-commerce/customer-details.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/customer-details" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customer details</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/e-commerce/shopping-cart.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/shopping-cart" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Shopping cart</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/e-commerce/checkout.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/checkout" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Checkout</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/e-commerce/billing.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/billing" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Billing</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/e-commerce/invoice.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/invoice" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Invoice</span>
             </div>
           </a>
