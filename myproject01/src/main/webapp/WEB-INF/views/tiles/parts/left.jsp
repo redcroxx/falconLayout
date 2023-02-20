@@ -23,7 +23,7 @@
         </div>
       </a>
       <ul class="nav collapse" id="dashboard">
-        <li class="nav-item"><a class="nav-link" href="/index" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link active" href="/index" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Default</span>
             </div>
           </a>
@@ -41,25 +41,25 @@
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../dashboard/e-commerce.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/e-commerce" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">E commerce</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../dashboard/lms.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/lms" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">LMS</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../dashboard/project-management.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/project-management" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Management</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../dashboard/saas.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/saas" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SaaS</span>
             </div>
           </a>
@@ -76,11 +76,11 @@
           <hr class="mb-0 navbar-vertical-divider" />
         </div>
       </div>
-      <!-- parent pages--><a class="nav-link" href="../app/calendar.html" role="button" data-bs-toggle="" aria-expanded="false">
+      <!-- parent pages--><a class="nav-link" href="/calendar" role="button" data-bs-toggle="" aria-expanded="false">
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-calendar-alt"></span></span><span class="nav-link-text ps-1">Calendar</span>
         </div>
       </a>
-      <!-- parent pages--><a class="nav-link" href="../app/chat.html" role="button" data-bs-toggle="" aria-expanded="false">
+      <!-- parent pages--><a class="nav-link" href="/chat" role="button" data-bs-toggle="" aria-expanded="false">
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-comments"></span></span><span class="nav-link-text ps-1">Chat</span>
         </div>
       </a>
@@ -89,19 +89,19 @@
         </div>
       </a>
       <ul class="nav collapse" id="email">
-        <li class="nav-item"><a class="nav-link" href="../app/email/inbox.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/inbox" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Inbox</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/email/email-detail.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/email-detail" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Email detail</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/email/compose.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/compose" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Compose</span>
             </div>
           </a>
@@ -113,19 +113,19 @@
         </div>
       </a>
       <ul class="nav collapse" id="events">
-        <li class="nav-item"><a class="nav-link" href="../app/events/create-an-event.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/create-an-event" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Create an event</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/events/event-detail.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/event-detail" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Event detail</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../app/events/event-list.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/event-list" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Event list</span>
             </div>
           </a>
@@ -143,19 +143,19 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="product">
-            <li class="nav-item"><a class="nav-link" href="../app/e-commerce/product/product-list.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/product-list" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Product list</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../app/e-commerce/product/product-grid.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/product-grid" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Product grid</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../app/e-commerce/product/product-details.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/product-details" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Product details</span>
                 </div>
               </a>
@@ -318,7 +318,7 @@
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-flag"></span></span><span class="nav-link-text ps-1">Starter</span>
         </div>
       </a>
-      <!-- parent pages--><a class="nav-link" href="../pages/landing.html" role="button" data-bs-toggle="" aria-expanded="false">
+      <!-- parent pages--><a class="nav-link" href="/landing" role="button" data-bs-toggle="" aria-expanded="false">
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-globe"></span></span><span class="nav-link-text ps-1">Landing</span>
         </div>
       </a>

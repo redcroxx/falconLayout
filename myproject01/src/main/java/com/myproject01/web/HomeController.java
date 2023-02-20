@@ -101,4 +101,120 @@ public class HomeController {
 		return mv;	
 	}
 	
+	@RequestMapping(value = "/landing")
+	public ModelAndView landing(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("landing.empty");
+		return mv;	
+	}	
+	
+	
+	@RequestMapping(value = "/e-commerce")
+	public ModelAndView ecommerce(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("e-commerce.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/lms")
+	public ModelAndView lms(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("lms.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/project-management")
+	public ModelAndView projectmanagement(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("project-management.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/saas")
+	public ModelAndView saas(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("saas.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/calendar")
+	public ModelAndView calendar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("calendar.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/chat")
+	public ModelAndView chat(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("chat.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/inbox")
+	public ModelAndView inbox(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("inbox.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/email-detail")
+	public ModelAndView emaildetail(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("email-detail.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/compose")
+	public ModelAndView compose(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("compose.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/create-an-event")
+	public ModelAndView createanevent(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("create-an-event.tile");
+		return mv;	
+	}			
+		
+	@RequestMapping(value = "/event-detail")
+	public ModelAndView eventdetail(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("event-detail.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/event-list")
+	public ModelAndView eventlist(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("event-list.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/product-list")
+	public ModelAndView productlist(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("product-list.tile");
+		return mv;	
+	}	
+	
+	
+	@RequestMapping(value = "/product-grid")
+	public ModelAndView productgrid(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("product-grid.tile");
+		return mv;	
+	}	
+	
+	
+	@RequestMapping(value = "/product-details")
+	public ModelAndView productdetails(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("product-details.tile");
+		return mv;	
+	}	
+		
+	
 }
