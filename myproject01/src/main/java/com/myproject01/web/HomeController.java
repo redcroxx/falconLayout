@@ -214,7 +214,61 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView();		
 		mv.setViewName("product-details.tile");
 		return mv;	
-	}	
-		
+	}
 	
+	@RequestMapping(value = "/order-list")
+	public ModelAndView orderlist(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("order-list.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/order-details")
+	public ModelAndView orderdetails(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("order-details.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/customers")
+	public ModelAndView customers(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("customers.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/customer-details")
+	public ModelAndView customerdetails(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("customer-details.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/shopping-cart")
+	public ModelAndView shoppingcart(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("shopping-cart.tile");
+		return mv;	
+	}		
+
+	@RequestMapping(value = "/checkout")
+	public ModelAndView checkout(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("checkout.tile");
+		return mv;	
+	}		
+
+	@RequestMapping(value = "/billing")
+	public ModelAndView billing(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("billing.tile");
+		return mv;	
+	}	
+
+	@RequestMapping(value = "/invoice")
+	public ModelAndView invoice(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("invoice.tile");
+		return mv;	
+	}		
 }
