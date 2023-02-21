@@ -574,9 +574,46 @@ public class HomeController {
 		return mv;	
 	}		
 	
-
+	@RequestMapping(value = "/form-control")
+	public ModelAndView formcontrol(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("form-control.tile");
+		return mv;	
+	}		
 	
+	@RequestMapping(value = "/input-group")
+	public ModelAndView inputgroup(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("input-group.tile");
+		return mv;	
+	}		
 	
+	@RequestMapping(value = "/select")
+	public ModelAndView select(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("select.tile");
+		return mv;	
+	}		
 	
+	@RequestMapping(value = "/checks")
+	public ModelAndView checks(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("checks.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/range")
+	public ModelAndView range(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("range.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/layout")
+	public ModelAndView layout(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("layout.tile");
+		return mv;	
+	}		
 	
 }
