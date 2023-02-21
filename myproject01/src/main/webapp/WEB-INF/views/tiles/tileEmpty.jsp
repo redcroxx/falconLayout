@@ -20,6 +20,9 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
     <link rel="apple-touch-icon" sizes="180x180" href="/resources/Falcon/img/assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/resources/Falcon/img/assets/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/resources/Falcon/img/assets/img/favicons/favicon-16x16.png">
@@ -33,10 +36,16 @@
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
+    
     <link href="/resources/Falcon/js/vendors/leaflet/leaflet.css" rel="stylesheet">
     <link href="/resources/Falcon/js/vendors/leaflet.markercluster/MarkerCluster.css" rel="stylesheet">
     <link href="/resources/Falcon/js/vendors/leaflet.markercluster/MarkerCluster.Default.css" rel="stylesheet">
-    <link href="/resources/Falcon/js/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">        
+    <link href="/resources/Falcon/js/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/fullcalendar/main.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/choices/choices.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/dropzone/dropzone.min.css" rel="stylesheet">    
+    <link href="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/glightbox/glightbox.min.css" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
@@ -85,6 +94,9 @@
     <script src="/resources/Falcon/js/vendors/leaflet.tilelayer.colorfilter/leaflet-tilelayer-colorfilter.min.js"></script>
     <script src="/resources/Falcon/js/vendors/countup/countUp.umd.js"></script>
     <script src="/resources/Falcon/js/assets/data/world.js"></script>
+    <script src="/resources/Falcon/js/vendors/echarts-countries-js/map/world.js"></script>
+    <script src="/resources/Falcon/js/vendors/echarts-countries-js/world/world.js"></script>
+   
     <script src="/resources/Falcon/js/vendors/chart/chart.min.js"></script>
     <script src="/resources/Falcon/js/vendors/dayjs/dayjs.min.js"></script>
     <script src="/resources/Falcon/js/vendors/popper/popper.min.js"></script>
@@ -97,6 +109,13 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="/resources/Falcon/js/vendors/list.js/list.min.js"></script>
     <script src="/resources/Falcon/js/assets/theme.js"></script>
+    <script src="/resources/Falcon/js/vendors/fullcalendar/main.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/d3/d3.min.js"></script>    
+
+    <script src="/resources/Falcon/js/vendors/choices/choices.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/dropzone/dropzone.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/glightbox/glightbox.min.js"> </script>
   </body>
 </html>
 

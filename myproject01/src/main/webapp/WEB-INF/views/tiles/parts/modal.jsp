@@ -265,3 +265,18 @@
       </div>
     </div>
   </div>
+  
+  
+  <div class="modal fade" id="error-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 400px">
+      <div class="modal-content position-relative p-5">
+        <div class="d-flex align-items-center">
+          <div class="lottie me-3" data-options='{"path":"/resources/Falcon/img/assets/img/animated-icons/warning-light.json"}'></div>
+          <div class="flex-1">
+            <button class="btn btn-link text-danger position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal"><span class="fas fa-times"></span></button>
+            <p class="mb-0">You don't have access to the link. Please try again.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  

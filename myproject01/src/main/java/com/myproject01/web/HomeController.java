@@ -298,10 +298,285 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView();		
 		mv.setViewName("create-a-course.tile");
 		return mv;	
+	}	
+	
+	@RequestMapping(value = "/student-overview")
+	public ModelAndView studentoverview(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("student-overview.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/trainer-profile")
+	public ModelAndView trainerprofile(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("trainer-profile.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/feed")
+	public ModelAndView feed(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("feed.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/notifications")
+	public ModelAndView notifications(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("notifications.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/followers")
+	public ModelAndView followers(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("followers.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/card-login")
+	public ModelAndView cardlogin(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/login.empty");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/card-logout")
+	public ModelAndView cardlogout(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/logout.empty");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/card-register")
+	public ModelAndView cardregister(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/register.empty");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/card-forgot-password")
+	public ModelAndView cardforgotpassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/forgot-password.empty");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/card-confirm-mail")
+	public ModelAndView cardconfirmmail(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/confirm-mail.empty");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/card-reset-password")
+	public ModelAndView cardresetpassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/reset-password.empty");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/card-lock-screen")
+	public ModelAndView cardlockscreen(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("card/lock-screen.empty");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/simple-login")
+	public ModelAndView simplelogin(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/login.empty");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/simple-logout")
+	public ModelAndView simplelogout(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/logout.empty");
+		return mv;	
+	}			
+
+	@RequestMapping(value = "/simple-register")
+	public ModelAndView simpleregister(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/register.empty");
+		return mv;	
+	}		
+
+	@RequestMapping(value = "/simple-forgot-password")
+	public ModelAndView simpleforgotpassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/forgot-password.empty");
+		return mv;	
+	}		
+
+	@RequestMapping(value = "/simple-confirm-mail")
+	public ModelAndView simpleconfirmmail(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/confirm-mail.empty");
+		return mv;	
+	}						
+	
+	@RequestMapping(value = "/simple-reset-password")
+	public ModelAndView simpleresetpassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/reset-password.empty");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/simple-lock-screen")
+	public ModelAndView simplelockscreen(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("simple/lock-screen.empty");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/split-login")
+	public ModelAndView splitlogin(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/login.empty");
+		return mv;	
+	}			
+	
+	
+	@RequestMapping(value = "/split-logout")
+	public ModelAndView splitlogout(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/logout.empty");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/split-register")
+	public ModelAndView splitregister(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/register.empty");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "split-forgot-password")
+	public ModelAndView splitforgotpassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/forgot-password.empty");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/split-confirm-mail")
+	public ModelAndView splitconfirmmail(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/confirm-mail.empty");
+		return mv;	
 	}		
 		
+	@RequestMapping(value = "/split-reset-password")
+	public ModelAndView splitresetpassword(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/reset-password.empty");
+		return mv;	
+	}		
+			
+	@RequestMapping(value = "/split-lock-screen")
+	public ModelAndView splitlockscreen(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("split/lock-screen.empty");
+		return mv;	
+	}		
+		
+	@RequestMapping(value = "/wizard")
+	public ModelAndView wizard(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("wizard.empty");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/profile")
+	public ModelAndView profile(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("profile.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/settings")
+	public ModelAndView settings(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("settings.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/pricing-default")
+	public ModelAndView pricingdefault(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("pricing-default.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/pricing-alt")
+	public ModelAndView pricingalt(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("pricing-alt.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/faq-basic")
+	public ModelAndView faqbasic(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("faq-basic.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/faq-alt")
+	public ModelAndView faqalt(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("faq-alt.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/faq-accordion")
+	public ModelAndView faqaccordion(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("faq-accordion.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/404")
+	public ModelAndView msg404(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("404.empty");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/500")
+	public ModelAndView msg500(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("500.empty");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/associations")
+	public ModelAndView associations(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("associations.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/invite-people")
+	public ModelAndView invitepeople(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("invite-people.tile");
+		return mv;	
+	}	
+
+	@RequestMapping(value = "/privacy-policy")
+	public ModelAndView privacypolicy(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("privacy-policy.tile");
+		return mv;	
+	}		
+	
+
+	
+	
 	
 	
 }
-
-
