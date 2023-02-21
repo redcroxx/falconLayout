@@ -51,6 +51,13 @@
     <link href="/resources/Falcon/css/assets/theme.min.css" rel="stylesheet" id="style-default">
     <link href="/resources/Falcon/css/assets/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
     <link href="/resources/Falcon/css/assets/user.min.css" rel="stylesheet" id="user-style-default">
+    
+    <link href="/resources/Falcon/js/vendors/prism/prism-okaidia.css" rel="stylesheet">
+    <link href="/resources/Falcon/js/vendors/plyr/plyr.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <script>
       var isRTL = JSON.parse(localStorage.getItem('isRTL'));
       //var isRTL = false;
@@ -127,6 +134,7 @@
     <script src="/resources/Falcon/js/vendors/leaflet.tilelayer.colorfilter/leaflet-tilelayer-colorfilter.min.js"></script>
     <script src="/resources/Falcon/js/vendors/countup/countUp.umd.js"></script>
     <script src="/resources/Falcon/js/assets/data/world.js"></script>
+    <script src="/resources/Falcon/js/assets/data/usa.js"></script>    
     <script src="/resources/Falcon/js/vendors/echarts-countries-js/map/world.js"></script>
     <script src="/resources/Falcon/js/vendors/echarts-countries-js/world/world.js"></script>
    
@@ -149,6 +157,22 @@
     <script src="/resources/Falcon/js/vendors/dropzone/dropzone.min.js"></script>
     <script src="/resources/Falcon/js/vendors/swiper/swiper-bundle.min.js"></script>
     <script src="/resources/Falcon/js/vendors/glightbox/glightbox.min.js"> </script>
+    
+    <script src="/resources/Falcon/js/vendors/prism/prism.js"></script>
+    <script src="/resources/Falcon/js/vendors/tinymce/tinymce.min.js"></script>
+    
+    <script src="/resources/Falcon/js/vendors/rater-js/index.js"> </script>   
+    <script src="/resources/Falcon/js/assets/echarts-example.js"></script>
+    <script src="/resources/Falcon/js/vendors/lottie/lottie.min.js"> </script>
+    <script src="/resources/Falcon/js/vendors/draggable/draggable.bundle.legacy.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="/resources/Falcon/js/vendors/plyr/plyr.polyfilled.min.js"></script>
+    <script>
+      feather.replace()
+    </script>     
+    
+    
   </body>
 
 </html>

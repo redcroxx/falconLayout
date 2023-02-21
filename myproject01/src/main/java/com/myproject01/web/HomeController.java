@@ -614,6 +614,527 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView();		
 		mv.setViewName("layout.tile");
 		return mv;	
+	}	
+	
+	@RequestMapping(value = "/advance-select")
+	public ModelAndView advanceselect(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("advance-select.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/date-picker")
+	public ModelAndView datepicker(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("date-picker.tile");
+		return mv;	
+	}
+
+	@RequestMapping(value = "/editor")
+	public ModelAndView editor(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("editor.tile");
+		return mv;	
 	}		
+	
+	@RequestMapping(value = "/emoji-button")
+	public ModelAndView emojibutton(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("emoji-button.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/file-uploader")
+	public ModelAndView fileuploader(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("file-uploader.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/rating")
+	public ModelAndView rating(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("rating.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/floating-labels")
+	public ModelAndView floatinglabels(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("floating-labels.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/wizard-form")
+	public ModelAndView wizardform(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("wizard-form.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/validation")
+	public ModelAndView validation(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("validation.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/basic-tables")
+	public ModelAndView basictables(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("basic-tables.tile");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/advance-tables")
+	public ModelAndView advancetables(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("advance-tables.tile");
+		return mv;	
+	}	
+	
+	
+	@RequestMapping(value = "/bulk-select")
+	public ModelAndView bulkselect(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("bulk-select.tile");
+		return mv;	
+	}			
+			
+	@RequestMapping(value = "/chartjs")
+	public ModelAndView chartjs(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("chartjs.tile");
+		return mv;	
+	}		
+		
+	@RequestMapping(value = "/d3js")
+	public ModelAndView d3js(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("d3js.tile");
+		return mv;	
+	}		
+
+	@RequestMapping(value = "/line-charts")
+	public ModelAndView linecharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/line-charts.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/bar-charts")
+	public ModelAndView barcharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/bar-charts.tile");
+		return mv;	
+	}		
+		
+	@RequestMapping(value = "/candlestick-charts")
+	public ModelAndView candlestickcharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/candlestick-charts.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/geo-map")
+	public ModelAndView geomap(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/geo-map.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/scatter-charts")
+	public ModelAndView scattercharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/scatter-charts.tile");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/pie-charts")
+	public ModelAndView piecharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/pie-charts.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/radar-charts")
+	public ModelAndView radarcharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/radar-charts.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/heatmap-charts")
+	public ModelAndView heatmapcharts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/heatmap-charts.tile");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/how-to-use")
+	public ModelAndView howtouse(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("echarts/how-to-use.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/font-awesome")
+	public ModelAndView fontawesome(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("icons/font-awesome.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/bootstrap-icons")
+	public ModelAndView bootstrapicons(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("icons/bootstrap-icons.tile");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/feather")
+	public ModelAndView feather(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("icons/feather.tile");
+		return mv;	
+	}				
+	
+	@RequestMapping(value = "/material-icons")
+	public ModelAndView materialicons(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("icons/material-icons.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/leaflet-map")
+	public ModelAndView leafletmap(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("maps/leaflet-map.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/accordion")
+	public ModelAndView accordion(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/accordion.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/alerts")
+	public ModelAndView alerts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/alerts.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/anchor")
+	public ModelAndView anchor(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/anchor.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/animated-icons")
+	public ModelAndView animatedicons(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/animated-icons.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/background")
+	public ModelAndView background(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/background.tile");
+		return mv;	
+	}			
+	
+	@RequestMapping(value = "/badges")
+	public ModelAndView badges(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/badges.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/bottom-bar")
+	public ModelAndView bottombar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/bottom-bar.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/breadcrumbs")
+	public ModelAndView breadcrumbs(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/breadcrumbs.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/buttons")
+	public ModelAndView buttons(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/buttons.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/componentcalendar")
+	public ModelAndView componentcalendar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/calendar.tile");
+		return mv;	
+	}	
+	
+	
+	@RequestMapping(value = "/componentcards")
+	public ModelAndView componentcards(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/cards.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/collapse")
+	public ModelAndView collapse(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/collapse.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/cookie-notice")
+	public ModelAndView cookienotice(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/cookie-notice.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/countup")
+	public ModelAndView countup(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/countup.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/draggable")
+	public ModelAndView draggable(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/draggable.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/dropdowns")
+	public ModelAndView dropdowns(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/dropdowns.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/list-group")
+	public ModelAndView listgroup(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/list-group.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/modals")
+	public ModelAndView modals(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/modals.tile");
+		return mv;	
+	}		
+		
+	@RequestMapping(value = "/offcanvas")
+	public ModelAndView offcanvas(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/offcanvas.tile");
+		return mv;	
+	}		
+			
+	@RequestMapping(value = "/progress-bar")
+	public ModelAndView progressbar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/progress-bar.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/placeholder")
+	public ModelAndView placeholder(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/placeholder.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/pagination")
+	public ModelAndView pagination(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/pagination.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/popovers")
+	public ModelAndView popovers(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/popovers.tile");
+		return mv;	
+	}		
+			
+	@RequestMapping(value = "/scrollspy")
+	public ModelAndView scrollspy(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/scrollspy.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/search")
+	public ModelAndView search(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/search.tile");
+		return mv;	
+	}	
+			
+	@RequestMapping(value = "/spinners")
+	public ModelAndView spinners(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/spinners.tile");
+		return mv;	
+	}	
+		
+	@RequestMapping(value = "/timeline")
+	public ModelAndView timeline(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/timeline.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/toasts")
+	public ModelAndView toasts(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/toasts.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/tooltips")
+	public ModelAndView tooltips(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/tooltips.tile");
+		return mv;	
+	}		
+					
+	@RequestMapping(value = "/treeview")
+	public ModelAndView treeview(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/treeview.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/typed-text")
+	public ModelAndView typedtext(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/typed-text.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/embed")
+	public ModelAndView embed(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/videos/embed.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/plyr")
+	public ModelAndView plyr(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/videos/plyr.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/bootstrap")
+	public ModelAndView bootstrap(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/carousel/bootstrap.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/swiper")
+	public ModelAndView swiper(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/carousel/swiper.tile");
+		return mv;	
+	}	
+		
+	@RequestMapping(value = "/navs")
+	public ModelAndView navs(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/navs-and-tabs/navs.tile");
+		return mv;	
+	}	
+			
+	
+	@RequestMapping(value = "/navbar")
+	public ModelAndView navbar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/navs-and-tabs/navbar.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/vertical-navbar")
+	public ModelAndView verticalnavbar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/navs-and-tabs/vertical-navbar.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/top-navbar")
+	public ModelAndView topnavbar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/navs-and-tabs/top-navbar.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/combo-navbar")
+	public ModelAndView combonavbar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/navs-and-tabs/combo-navbar.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/tabs")
+	public ModelAndView tabs(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/navs-and-tabs/tabs.tile");
+		return mv;	
+	}
+	
+	@RequestMapping(value = "/avatar")
+	public ModelAndView avatar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/pictures/avatar.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/images")
+	public ModelAndView images(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/pictures/images.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/figures")
+	public ModelAndView figures(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/pictures/figures.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/hoverbox")
+	public ModelAndView hoverbox(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/pictures/hoverbox.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/lightbox")
+	public ModelAndView lightbox(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("components/pictures/lightbox.tile");
+		return mv;	
+	}			
 	
 }

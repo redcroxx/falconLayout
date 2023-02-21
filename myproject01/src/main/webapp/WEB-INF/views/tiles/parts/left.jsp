@@ -637,37 +637,37 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="advance">
-            <li class="nav-item"><a class="nav-link" href="../modules/forms/advance/advance-select.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/advance-select" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Advance select</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/forms/advance/date-picker.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/date-picker" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Date picker</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/forms/advance/editor.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/editor" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Editor</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/forms/advance/emoji-button.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/emoji-button" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Emoji button</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/forms/advance/file-uploader.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/file-uploader" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">File uploader</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/forms/advance/rating.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/rating" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Rating</span>
                 </div>
               </a>
@@ -675,19 +675,19 @@
             </li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/forms/floating-labels.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/floating-labels" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Floating labels</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/forms/wizard.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/wizard-form" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Wizard</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/forms/validation.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/validation" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Validation</span>
             </div>
           </a>
@@ -699,19 +699,19 @@
         </div>
       </a>
       <ul class="nav collapse" id="tables">
-        <li class="nav-item"><a class="nav-link" href="../modules/tables/basic-tables.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/basic-tables" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Basic tables</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/tables/advance-tables.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/advance-tables" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Advance tables</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/tables/bulk-select.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/bulk-select" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bulk select</span>
             </div>
           </a>
@@ -723,13 +723,13 @@
         </div>
       </a>
       <ul class="nav collapse" id="charts">
-        <li class="nav-item"><a class="nav-link" href="../modules/charts/chartjs.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/chartjs" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Chartjs</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/charts/d3js.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/d3js" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">D3js</span>
             </div>
           </a>
@@ -741,55 +741,50 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="eCharts">
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/line-charts.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/line-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Line charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/bar-charts.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/bar-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bar charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/candlestick-charts.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/candlestick-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Candlestick charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/geo-map.html" data-bs-toggle="" aria-expanded="false">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Geo map</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-            </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/scatter-charts.html" data-bs-toggle="" aria-expanded="false">
+            
+            <li class="nav-item"><a class="nav-link" href="/scatter-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Scatter charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/pie-charts.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/pie-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pie charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/radar-charts.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/radar-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Radar charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/heatmap-charts.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/heatmap-charts" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Heatmap charts</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/charts/echarts/how-to-use.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/how-to-use" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">How to use</span>
                 </div>
               </a>
@@ -803,25 +798,25 @@
         </div>
       </a>
       <ul class="nav collapse" id="icons">
-        <li class="nav-item"><a class="nav-link" href="../modules/icons/font-awesome.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/font-awesome" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Font awesome</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/icons/bootstrap-icons.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/bootstrap-icons" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bootstrap icons</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/icons/feather.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/feather" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Feather</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/icons/material-icons.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/material-icons" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Material icons</span>
             </div>
           </a>
@@ -833,13 +828,7 @@
         </div>
       </a>
       <ul class="nav collapse" id="maps">
-        <li class="nav-item"><a class="nav-link" href="../modules/maps/google-map.html" data-bs-toggle="" aria-expanded="false">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Google map</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-        </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/maps/leaflet-map.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/leaflet-map" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Leaflet map</span>
             </div>
           </a>
@@ -850,68 +839,73 @@
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-puzzle-piece"></span></span><span class="nav-link-text ps-1">Components</span>
         </div>
       </a>
-      <ul class="nav collapse" id="components">
-        <li class="nav-item"><a class="nav-link" href="../modules/components/accordion.html" data-bs-toggle="" aria-expanded="false">
+      
+      
+      
+      
+      
+	<ul class="nav collapse" id="components">
+        <li class="nav-item"><a class="nav-link" href="/accordion" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Accordion</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/alerts.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/alerts" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Alerts</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/anchor.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/anchor" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Anchor</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/animated-icons.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/animated-icons" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Animated icons</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/background.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/background" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Background</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/badges.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/badges" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Badges</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/bottom-bar.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/bottom-bar" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bottom bar</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/breadcrumbs.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/breadcrumbs" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Breadcrumbs</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/buttons.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/buttons" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Buttons</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/calendar.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/componentcalendar" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Calendar</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/cards.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/componentcards" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Cards</span>
             </div>
           </a>
@@ -923,13 +917,13 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="carousel">
-            <li class="nav-item"><a class="nav-link" href="../modules/components/carousel/bootstrap.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/bootstrap" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bootstrap</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/carousel/swiper.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/swiper" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Swiper</span>
                 </div>
               </a>
@@ -937,43 +931,43 @@
             </li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/collapse.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/collapse" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Collapse</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/cookie-notice.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/cookie-notice" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Cookie notice</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/countup.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/countup" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Countup</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/draggable.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/draggable" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Draggable</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/dropdowns.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/dropdowns" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Dropdowns</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/list-group.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/list-group" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">List group</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/modals.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/modals" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Modals</span>
             </div>
           </a>
@@ -985,37 +979,37 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="navs-_and_-Tabs">
-            <li class="nav-item"><a class="nav-link" href="../modules/components/navs-and-tabs/navs.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/navs" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Navs</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/navs-and-tabs/navbar.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/navbar" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Navbar</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/navs-and-tabs/vertical-navbar.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/vertical-navbar" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Vertical navbar</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/navs-and-tabs/top-navbar.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/top-navbar" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Top navbar</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/navs-and-tabs/combo-navbar.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/combo-navbar" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Combo navbar</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/navs-and-tabs/tabs.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/tabs" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Tabs</span>
                 </div>
               </a>
@@ -1023,7 +1017,7 @@
             </li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/offcanvas.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/offcanvas" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Offcanvas</span>
             </div>
           </a>
@@ -1035,31 +1029,31 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="pictures">
-            <li class="nav-item"><a class="nav-link" href="../modules/components/pictures/avatar.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/avatar" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Avatar</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/pictures/images.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/images" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Images</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/pictures/figures.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/figures" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Figures</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/pictures/hoverbox.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/hoverbox" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Hoverbox</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/pictures/lightbox.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/lightbox" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Lightbox</span>
                 </div>
               </a>
@@ -1067,73 +1061,73 @@
             </li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/progress-bar.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/progress-bar" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Progress bar</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/placeholder.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/placeholder" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Placeholder</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/pagination.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/pagination" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pagination</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/popovers.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/popovers" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Popovers</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/scrollspy.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/scrollspy" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Scrollspy</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/search.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/search" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Search</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/spinners.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/spinners" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Spinners</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/timeline.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/timeline" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Timeline</span><span class="badge rounded-pill ms-2 badge-soft-success">New</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/toasts.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/toasts" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Toasts</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/tooltips.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/tooltips" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Tooltips</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/treeview.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/treeview" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Treeview</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/components/typed-text.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/typed-text" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Typed text</span>
             </div>
           </a>
@@ -1145,13 +1139,13 @@
           </a>
           <!-- more inner pages-->
           <ul class="nav collapse" id="videos">
-            <li class="nav-item"><a class="nav-link" href="../modules/components/videos/embed.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/embed" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Embed</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
-            <li class="nav-item"><a class="nav-link" href="../modules/components/videos/plyr.html" data-bs-toggle="" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link" href="/plyr" data-bs-toggle="" aria-expanded="false">
                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Plyr</span>
                 </div>
               </a>
@@ -1159,7 +1153,15 @@
             </li>
           </ul>
         </li>
-      </ul>
+      </ul>      
+      
+      
+      
+      
+      
+      
+      
+      
       <!-- parent pages--><a class="nav-link dropdown-indicator" href="#utilities" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="utilities">
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-fire"></span></span><span class="nav-link-text ps-1">Utilities</span>
         </div>
