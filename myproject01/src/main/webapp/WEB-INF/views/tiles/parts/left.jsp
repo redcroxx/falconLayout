@@ -1166,284 +1166,112 @@
         <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-fire"></span></span><span class="nav-link-text ps-1">Utilities</span>
         </div>
       </a>
+      
+      
       <ul class="nav collapse" id="utilities">
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/borders.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/borders" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Borders</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/clearfix.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/clearfix" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Clearfix</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/colors.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/colors" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Colors</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/colored-links.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/colored-links" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Colored links</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/display.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/display" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Display</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/flex.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/flex" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Flex</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/float.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/float" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Float</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/grid.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/grid" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Grid</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/overlayscrollbar.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/overlayscrollbar" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Overlay scrollbar</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/position.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/position" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Position</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/spacing.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/spacing" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Spacing</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/sizing.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/sizing" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sizing</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/stretched-link.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/stretched-link" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Stretched link</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/text-truncation.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/text-truncation" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Text truncation</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/typography.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/typography" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Typography</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/vertical-align.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/vertical-align" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Vertical align</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-        <li class="nav-item"><a class="nav-link" href="../modules/utilities/visibility.html" data-bs-toggle="" aria-expanded="false">
+        <li class="nav-item"><a class="nav-link" href="/visibility" data-bs-toggle="" aria-expanded="false">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Visibility</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
-      </ul>
-      <!-- parent pages--><a class="nav-link" href="../widgets.html" role="button" data-bs-toggle="" aria-expanded="false">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-poll"></span></span><span class="nav-link-text ps-1">Widgets</span>
-        </div>
-      </a>
-      <!-- parent pages--><a class="nav-link dropdown-indicator" href="#multi-level" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="multi-level">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-layer-group"></span></span><span class="nav-link-text ps-1">Multi level</span>
-        </div>
-      </a>
-      <ul class="nav collapse" id="multi-level">
-        <li class="nav-item"><a class="nav-link dropdown-indicator" href="#level-two" data-bs-toggle="collapse" aria-expanded="false" aria-controls="multi-level">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Level two</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-          <ul class="nav collapse" id="level-two">
-            <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 1</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-            </li>
-            <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 2</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item"><a class="nav-link dropdown-indicator" href="#level-three" data-bs-toggle="collapse" aria-expanded="false" aria-controls="multi-level">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Level three</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-          <ul class="nav collapse" id="level-three">
-            <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 3</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-            </li>
-            <li class="nav-item"><a class="nav-link dropdown-indicator" href="#item-4" data-bs-toggle="collapse" aria-expanded="false" aria-controls="level-three">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 4</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-              <ul class="nav collapse" id="item-4">
-                <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 5</span>
-                    </div>
-                  </a>
-                  <!-- more inner pages-->
-                </li>
-                <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 6</span>
-                    </div>
-                  </a>
-                  <!-- more inner pages-->
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item"><a class="nav-link dropdown-indicator" href="#level-four" data-bs-toggle="collapse" aria-expanded="false" aria-controls="multi-level">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Level four</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-          <ul class="nav collapse" id="level-four">
-            <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 6</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-            </li>
-            <li class="nav-item"><a class="nav-link dropdown-indicator" href="#item-7" data-bs-toggle="collapse" aria-expanded="false" aria-controls="level-four">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 7</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-              <ul class="nav collapse" id="item-7">
-                <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 8</span>
-                    </div>
-                  </a>
-                  <!-- more inner pages-->
-                </li>
-                <li class="nav-item"><a class="nav-link dropdown-indicator" href="#item-9" data-bs-toggle="collapse" aria-expanded="false" aria-controls="item-7">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 9</span>
-                    </div>
-                  </a>
-                  <!-- more inner pages-->
-                  <ul class="nav collapse" id="item-9">
-                    <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 10</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="../#!.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Item 11</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li class="nav-item">
-      <!-- label-->
-      <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
-        <div class="col-auto navbar-vertical-label">Documentation
-        </div>
-        <div class="col ps-0">
-          <hr class="mb-0 navbar-vertical-divider" />
-        </div>
-      </div>
-      <!-- parent pages--><a class="nav-link" href="../documentation/getting-started.html" role="button" data-bs-toggle="" aria-expanded="false">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-rocket"></span></span><span class="nav-link-text ps-1">Getting started</span>
-        </div>
-      </a>
-      <!-- parent pages--><a class="nav-link dropdown-indicator" href="#customization" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="customization">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-wrench"></span></span><span class="nav-link-text ps-1">Customization</span>
-        </div>
-      </a>
-      <ul class="nav collapse" id="customization">
-        <li class="nav-item"><a class="nav-link" href="../documentation/customization/configuration.html" data-bs-toggle="" aria-expanded="false">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Configuration</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-        </li>
-        <li class="nav-item"><a class="nav-link" href="../documentation/customization/styling.html" data-bs-toggle="" aria-expanded="false">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Styling</span><span class="badge rounded-pill ms-2 badge-soft-success">Updated</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-        </li>
-        <li class="nav-item"><a class="nav-link" href="../documentation/customization/dark-mode.html" data-bs-toggle="" aria-expanded="false">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Dark mode</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-        </li>
-        <li class="nav-item"><a class="nav-link" href="../documentation/customization/plugin.html" data-bs-toggle="" aria-expanded="false">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Plugin</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-        </li>
-      </ul>
-      <!-- parent pages--><a class="nav-link" href="../documentation/faq.html" role="button" data-bs-toggle="" aria-expanded="false">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-question-circle"></span></span><span class="nav-link-text ps-1">Faq</span>
-        </div>
-      </a>
-      <!-- parent pages--><a class="nav-link" href="../documentation/gulp.html" role="button" data-bs-toggle="" aria-expanded="false">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fab fa-gulp"></span></span><span class="nav-link-text ps-1">Gulp</span>
-        </div>
-      </a>
-      <!-- parent pages--><a class="nav-link" href="../documentation/design-file.html" role="button" data-bs-toggle="" aria-expanded="false">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-palette"></span></span><span class="nav-link-text ps-1">Design file</span>
-        </div>
-      </a>
-      <!-- parent pages--><a class="nav-link" href="../changelog.html" role="button" data-bs-toggle="" aria-expanded="false">
-        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-code-branch"></span></span><span class="nav-link-text ps-1">Changelog</span>
-        </div>
-      </a>
-    </li>
-  </ul>
+    </ul>
   
   <!-- 
   <div class="settings mb-3">

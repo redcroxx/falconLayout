@@ -1135,6 +1135,130 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView();		
 		mv.setViewName("components/pictures/lightbox.tile");
 		return mv;	
+	}	
+	
+	
+	@RequestMapping(value = "/borders")
+	public ModelAndView borders(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/borders.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/clearfix")
+	public ModelAndView clearfix(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/clearfix.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/colors")
+	public ModelAndView colors(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/colors.tile");
+		return mv;	
 	}			
 	
+
+	@RequestMapping(value = "/colored-links")
+	public ModelAndView coloredlinks(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/colored-links.tile");
+		return mv;	
+	}				
+	
+	@RequestMapping(value = "/display")
+	public ModelAndView display(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/display.tile");
+		return mv;	
+	}				
+	
+	@RequestMapping(value = "/flex")
+	public ModelAndView flex(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/flex.tile");
+		return mv;	
+	}				
+
+	
+	@RequestMapping(value = "/float")
+	public ModelAndView Screenfloat(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/float.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/grid")
+	public ModelAndView Screengrid(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/grid.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/overlayscrollbar")
+	public ModelAndView overlayscrollbar(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/overlayscrollbar.tile");
+		return mv;	
+	}		
+		
+	@RequestMapping(value = "/position")
+	public ModelAndView position(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/position.tile");
+		return mv;	
+	}		
+			
+	@RequestMapping(value = "/spacing")
+	public ModelAndView spacing(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/spacing.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/sizing")
+	public ModelAndView sizing(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/sizing.tile");
+		return mv;	
+	}		
+	
+	@RequestMapping(value = "/stretched-link")
+	public ModelAndView stretchedlink(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/stretched-link.tile");
+		return mv;	
+	}			
+	
+	
+	@RequestMapping(value = "/text-truncation")
+	public ModelAndView texttruncation(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/text-truncation.tile");
+		return mv;	
+	}			
+			
+	
+	@RequestMapping(value = "/typography")
+	public ModelAndView typography(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/typography.tile");
+		return mv;	
+	}	
+	
+	@RequestMapping(value = "/vertical-align")
+	public ModelAndView verticalalign(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/vertical-align.tile");
+		return mv;	
+	}			
+				
+	@RequestMapping(value = "/visibility")
+	public ModelAndView visibility(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+		ModelAndView mv = new ModelAndView();		
+		mv.setViewName("utilities/visibility.tile");
+		return mv;	
+	}		
+				
 }
